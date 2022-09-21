@@ -3,10 +3,6 @@ package variables
 import "fmt"
 
 func Primitives() {
-
-	print("\n\n\n\n")
-	print("Primitives Package\n\n")
-
 	var isCompleted bool = false
 
 	fmt.Printf("%v, %T\n", isCompleted, isCompleted)
