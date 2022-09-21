@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/nitintf/go-learning/array"
 	"github.com/nitintf/go-learning/variables"
 )
 
@@ -16,4 +17,8 @@ func main() {
 	print("\n\n\n\n")
 	print("Const\n\n")
 	variables.Const()
+
+	print("\n\n\n\n")
+	print("Array\n\n")
+	array.Array()
 }
