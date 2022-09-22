@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/nitintf/go-learning/array"
+	"github.com/nitintf/go-learning/maps"
 	"github.com/nitintf/go-learning/variables"
 )
 
@@ -21,4 +22,12 @@ func main() {
 	print("\n\n\n\n")
 	print("Array\n\n")
 	array.Array()
+
+	print("\n\n\n\n")
+	print("Maps\n\n")
+	maps.Maps()
+
+	print("\n\n\n\n")
+	print("Struct\n\n")
+	maps.Struct()
 }
