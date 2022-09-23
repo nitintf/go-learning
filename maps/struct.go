@@ -12,8 +12,8 @@ type Doctor struct {
 }
 
 type Animal struct {
-	name   string `required,max:"1"`
-	origin string
+	name   string `required,max:"10"`
+	origin string `required,min:"2"`
 }
 
 type Bird struct {

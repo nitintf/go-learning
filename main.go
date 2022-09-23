@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/nitintf/go-learning/array"
+	"github.com/nitintf/go-learning/conditions"
 	"github.com/nitintf/go-learning/maps"
 	"github.com/nitintf/go-learning/variables"
 )
@@ -30,4 +31,8 @@ func main() {
 	print("\n\n\n\n")
 	print("Struct\n\n")
 	maps.Struct()
+
+	print("\n\n\n\n")
+	print("Conditional Statements\n\n")
+	conditions.IF()
 }
