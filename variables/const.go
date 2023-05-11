@@ -16,8 +16,8 @@ const (
 
 const (
 	a = iota
-	b = iota
-	c = iota
+	b
+	c
 )
 
 func Const() {

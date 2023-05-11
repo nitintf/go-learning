@@ -19,11 +19,11 @@ func Array() {
 	a := [...]int{1, 2, 4}
 	b := a // make a copy
 	b[0] = 2
+	fmt.Print("NItin si great")
 	fmt.Println(a)
 	fmt.Println(b)
 
 	// Slice
-
 	c := []int{1, 3, 5}
 	fmt.Println(len(c))
 	fmt.Println(cap(c))
@@ -42,4 +42,10 @@ func Array() {
 	f = append(f, 1)
 	f = append(f, []int{1, 2, 3, 4}...)
 	fmt.Println(f)
+
+	fmt.Println("Make wiht len and cap")
+	n := make([]int, 5, 10)
+
+	fmt.Println(len(n))
+	fmt.Println(cap(n))
 }

@@ -24,7 +24,9 @@ func Maps() {
 		fmt.Println(pop)
 	}
 
-	m := map[int]string{}
+	m := map[int]string{
+		1: "nitin",
+	}
 
 	fmt.Println(statePopulations, m)
 }

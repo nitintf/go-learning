@@ -3,6 +3,7 @@ package maps
 import (
 	"fmt"
 	"reflect"
+	"strings"
 )
 
 type Doctor struct {
@@ -48,6 +49,12 @@ func Struct() {
 
 	field, _ := t.FieldByName("name")
 	fmt.Println(field.Tag)
+
+	ss := strings.Split(string(field.Tag), ",")
+
+	for a := range ss {
+		fmt.Println(ss[a])
+	}
 
 	b := Bird{}
 	b.canFly = true
